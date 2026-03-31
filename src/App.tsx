@@ -13,7 +13,7 @@ import type {
 import "./style.css";
 
 const HISTORY_LOAD_ERROR =
-  "Saved conversations could not be loaded. Check that the backend API is running on https://costing-product-bk.azurewebsites.net.";
+  "Saved conversations could not be loaded. Check that the backend API is running on https://costing-product-bk.azurewebsites.net/api/v1.";
 const APP_STATE_STORAGE_KEY = "avocarbon-chatbot-state";
 const DEFAULT_COSTING_OPTIONS: CostingOption[] = [
   {
